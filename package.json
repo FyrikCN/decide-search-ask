@@ -1,0 +1,26 @@
+{
+  "name": "decide-search-ask",
+  "version": "1.0.0",
+  "description": "Conditional web search for LLMs: a small model decides SEARCH / NO_SEARCH, then Exa + a larger model answers",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/FyrikCN/decide-search-ask.git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "axios": "^1.6.2",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "license": "MIT"
+}
